@@ -10,6 +10,7 @@ function Portfolio() {
                     <PortfolioItem
                     imgURL={project.imgURL}
                     title={project.title}
+                    slug={project.slug}
                     stack={project.stack}
                     demoURL={project.demoURL}
                     gitURL={project.gitURL}

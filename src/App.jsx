@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import './App.css'
 
 
 
@@ -12,17 +11,26 @@ import Footer from './components/Footer'
 
 
 
+
+
 function App() {
   
 
   return (
-    <div className="App">
+    <div> 
+
+
+
+    <div className="bg-stone-900 text-stone-200 min-h-screen font-inter ">
+      <div className="max-w-5xl w-11/12 mx-auto">
         <Intro />
         <Portfolio />
         <Timeline />
         <Contact />
         <Footer />
+        </div>
       
+    </div>
     </div>
   )
 }
