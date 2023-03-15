@@ -13,23 +13,23 @@ export default [
     slug: '',
     stack: ['HTML', 'CSS', 'React.js'],
     demoURL: '',
-    gitURL: '',
+    gitURL: 'https://github.com/windsywinds/windsorphoto',
     },
     {
         title: 'Website number 3 (Portfolio)',
     imgURL: '',
-    slug: '',
+    slug: 'This webiste!',
     stack: ['HTML', 'Tailwind CSS', 'React.js', 'Vite'],
-    demoURL: '',
-    gitURL: '',
+    demoURL: 'https://windsywinds.github.io',
+    gitURL: 'https://github.com/windsywinds/webportfolio',
     },
     {
         title: 'C# Ticketing System',
     imgURL: '',
-    slug: '',
+    slug: 'A simple IT ticketing system',
     stack: ['C#'],
     demoURL: '',
-    gitURL: '',
+    gitURL: 'https://github.com/windsywinds/C-ticketsystem',
     }
     
 
