@@ -18,8 +18,8 @@ function PortfolioItem({title, imgURL, slug, stack, demoURL, gitURL}) {
             </span>
         ))} </p>
         <div className="flex flex-wrap gap-2 pt-2 flex-row items-center justify-start text-xs md:text-sm">
-            <a className="inline-block px-2 py-1 font-semibold border-2 border-slate-800 rounded-md bg-gradient-to-r from-orange-600 to-pink-600 drop-shadow-md hover:stroke-white" href={demoURL} >Demo</a>
-            <a className="inline-block px-2 py-1 font-semibold border-2 border-slate-800 rounded-md bg-gradient-to-r from-orange-600 to-pink-600 drop-shadow-md hover:stroke-white" href={gitURL}>GitHub</a>
+            <a className="inline-block px-2 py-1 font-semibold border-2 border-slate-800 rounded-md bg-gradient-to-r from-orange-600 to-pink-600 drop-shadow-md hover:stroke-white" target="blank" href={demoURL} >Demo</a>
+            <a className="inline-block px-2 py-1 font-semibold border-2 border-slate-800 rounded-md bg-gradient-to-r from-orange-600 to-pink-600 drop-shadow-md hover:stroke-white" target="blank" href={gitURL}>GitHub</a>
             </div>
     </div>
     </div>

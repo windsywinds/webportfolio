@@ -32,7 +32,7 @@ function Contact() {
                         <button 
                         type="button"
                         className="text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-gradient-to-r from-orange-600 to-pink-600 drop-shadow-md hover:stroke-white"
-                        >Submit</button>
+                        >Send!</button>
                 </form>
 
             </div>

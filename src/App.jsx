@@ -1,19 +1,15 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 
-
 import Title from './components/Title'
 import Hero from './components/Hero'
-import Hero1 from './components/Hero1'
 import Intro from './components/Intro'
 import Portfolio from './components/Portfolio'
 import Timeline from './components/Timeline'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
-
-
-
+import Hero1 from './components/Hero1'
 
 function App() {
 

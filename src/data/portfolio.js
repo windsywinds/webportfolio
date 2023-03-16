@@ -8,6 +8,14 @@ export default [
     gitURL: 'https://github.com/windsywinds/vorstermans',
     },
     {
+        title: 'Web Portfolio',
+    imgURL: '/assets/csharpthumb.jpg',
+    slug: 'This website!',
+    stack: ['HTML', 'Tailwind CSS', 'React.js', 'Vite'],
+    demoURL: 'https://windsywinds.github.io',
+    gitURL: 'https://github.com/windsywinds/webportfolio',
+    },
+    {
         title: 'Windsor Photos',
     imgURL: '/assets/csharpthumb.jpg',
     slug: 'My personal photography portfolio',
@@ -15,14 +23,7 @@ export default [
     demoURL: '',
     gitURL: 'https://github.com/windsywinds/windsorphoto',
     },
-    {
-        title: 'Web Portfolio',
-    imgURL: '/assets/csharpthumb.jpg',
-    slug: 'This webiste!',
-    stack: ['HTML', 'Tailwind CSS', 'React.js', 'Vite'],
-    demoURL: 'https://windsywinds.github.io',
-    gitURL: 'https://github.com/windsywinds/webportfolio',
-    },
+
     {
         title: 'C# Ticketing System',
     imgURL: '/assets/csharpthumb.jpg',
