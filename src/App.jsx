@@ -9,7 +9,9 @@ import Timeline from './components/Timeline'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
-import Hero1 from './components/Hero1'
+import background from './assets/bar1.png'
+import CV from './assets/Sam-Windsor-CV.pdf'
+import vorstthumb from './assets/vorstthumb.jpg'
 
 function App() {
 
