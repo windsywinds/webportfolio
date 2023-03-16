@@ -3,7 +3,9 @@ import React from "react";
 function Contact() {
     return (
         <div className="flex flex-col mb-10 mx-auto pt-5" >
+            
             <div className="flex justify-center items-center">
+            
                 <form 
                     action="https://getform.io/slug"
                     method="POST"
