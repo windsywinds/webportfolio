@@ -9,7 +9,7 @@ export default [
     },
     {
         title: 'Web Portfolio',
-    imgURL: '/assets/csharpthumb.jpg',
+    imgURL: '/assets/webportthumb.png',
     slug: 'This website!',
     stack: ['HTML', 'Tailwind CSS', 'React.js', 'Vite'],
     demoURL: 'https://windsywinds.github.io',
@@ -18,9 +18,9 @@ export default [
     {
         title: 'Windsor Photos',
     imgURL: '/assets/csharpthumb.jpg',
-    slug: 'My personal photography portfolio',
+    slug: 'My personal photography portfolio. Not yet complete.',
     stack: ['HTML', 'CSS', 'React.js', 'Contentful CMS', 'Shopify'],
-    demoURL: '',
+    demoURL: 'https://windsorphotos.netlify.app/',
     gitURL: 'https://github.com/windsywinds/windsorphoto',
     },
 

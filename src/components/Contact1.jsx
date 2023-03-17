@@ -1,7 +1,9 @@
 import React from "react";
 import Title from "./Title";
 
-function Contact() {
+function Contact1() {
+  
+
     return (
         <div className="flex flex-col mb-10 mx-auto pt-10" >
             
@@ -18,15 +20,14 @@ function Contact() {
                         name="name"
                         placeholder="Name"
                         className="p-2 bg-transparent border-2 rounded-md focus:outline-none"
-                        required
+                        
                     ></input>
                     <input 
                         type="email"
                         name="email"
                         placeholder="Your@Email.com"
                         className="my-2 p-2 bg-transparent border-2 rounded-md focus:outline-none"
-                        required
-                    ></input>
+                    required></input>
                     <textarea
                         name="message"
                         placeholder="Your Message"
@@ -36,7 +37,6 @@ function Contact() {
                         <button 
                         type="submit"
                         className="text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-gradient-to-r from-orange-600 to-pink-600 drop-shadow-md hover:stroke-white"
-                        required
                         >Send!</button>
                 </form>
 
@@ -46,4 +46,4 @@ function Contact() {
     )
 }
 
-export default Contact;
+export default Contact1;
