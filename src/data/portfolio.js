@@ -12,8 +12,8 @@ export default [
     imgURL: '/assets/webportthumb.png',
     slug: 'This website!',
     stack: ['HTML', 'Tailwind CSS', 'React.js', 'Vite'],
-    demoURL: 'https://windsywinds.github.io',
     gitURL: 'https://github.com/windsywinds/webportfolio',
+    onClick: 'blank',
     },
     {
         title: 'Windsor Photos',
@@ -29,7 +29,6 @@ export default [
     imgURL: '/assets/csharpthumb.jpg',
     slug: 'A simple IT ticketing system',
     stack: ['C#'],
-    demoURL: '',
     gitURL: 'https://github.com/windsywinds/C-ticketsystem',
     }
     

@@ -22,7 +22,7 @@ function Hero() {
         <div className="w-full h-full  flex flex-col items-center justify-center">           
             <div className="flex flex-col pl-10 pb-8" >    
                 <h1 className="text-4xl md:text-7xl dark:text-white mb-1 md:mb-3 font-bold">Sam Windsor,</h1>
-                <p className="text-base md:text-xl pl-1 mb-3 font-medium text-right ">Web Developer.</p> 
+                <p className="text-base md:text-xl pl-1 pr-1 mb-3 font-medium text-right ">Web Developer.</p>
             </div>
             </div>
 
