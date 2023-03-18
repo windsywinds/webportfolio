@@ -1,7 +1,7 @@
-V 1.0 
-Version 1.1 updated contact form
+V 1.0   
+Version 1.1 updated contact form   
 
-Live version: https://windsywinds.github.io/
+Live version: https://windsywinds.github.io/   
 
 Built using:  
   
