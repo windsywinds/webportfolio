@@ -1,13 +1,13 @@
-import React from 'react'
+import React from 'react';
+
 import background from '../assets/bar1.png'
 
 function Hero() {
+
+
   return (
     <div className="">
-        <div className="h-screen bg-cover ms:bg-contain bg-no-repeat bg-center flex flex-col overflow-hidden  " style={{ backgroundImage: `url(${background})` }}>
-        
-
-        
+        <div className="h-screen bg-cover ms:bg-contain bg-no-repeat bg-center flex flex-col overflow-hidden  " style={{ backgroundImage: `url(${background})`, height: "calc(100vh + 20px)" }}>
         
         <span className="flex flex-col ml-auto items-center pr-5 pt-5">
         <a href="/assets/Sam-Windsor-CV.pdf" target="_blank" download>
@@ -16,18 +16,16 @@ function Hero() {
               </svg></a> <a href="/assets/Sam-Windsor-CV.pdf" target="_blank" download><p className="text-xs md:text-sm">Download CV</p></a>
           </span>
 
-        
-        
-
         <div className="w-full h-full  flex flex-col items-center justify-center">           
             <div className="flex flex-col pl-10 pb-8" >    
-                <h1 className="text-4xl md:text-7xl dark:text-white mb-1 md:mb-3 font-bold">Sam Windsor,</h1>
+                <h1 className="text-4xl md:text-7xl dark:text-white mb-1 md:mb-3 font-bold ">Sam Windsor,</h1>
                 <p className="text-base md:text-xl pl-1 pr-1 mb-3 font-medium text-right ">Web Developer.</p>
             </div>
             </div>
 
 
-            <span class="inline-block animate-bounce text-stone-700 text-sm pt-10">
+            <span class="inline-block animate-bounce text-stone-700 text-sm pt-10" style={{animation: "bounce 2s infinite" }} >
+                
                 <svg class="w-10 h-10 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 13l-7 7-7-7m14-8l-7 7-7-7" />
                 </svg>

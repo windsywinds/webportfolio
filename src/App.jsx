@@ -1,6 +1,3 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-
 import Title from './components/Title'
 import Hero from './components/Hero'
 import Intro from './components/Intro'
@@ -18,21 +15,26 @@ import webportthumb from './assets/webportthumb.png'
 
 
 function App() {
+  
 
+
+  
 
   return (
     <div> 
-      
-
+     
 
     <div className="bg-stone-900 text-stone-200 min-h-screen font-inter ">
     
         <Hero />
-        <div className="max-w-5xl w-11/12 mx-auto">
+        <div className="max-w-5xl w-11/12 mx-auto ">
+       
         <Intro />
+       
         <Portfolio />
-        <Timeline />
+       
         <Contact />
+       
         <Footer />
         </div>
       
