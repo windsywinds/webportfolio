@@ -7,30 +7,36 @@ export default [
     demoURL: 'https://vorstermans.netlify.app/',
     gitURL: 'https://github.com/windsywinds/vorstermans',
     },
-    {
-        title: 'Web Portfolio',
-    imgURL: '/assets/webportthumb.png',
-    slug: 'This website!',
-    stack: ['HTML', 'Tailwind CSS', 'React.js', 'Vite'],
-    gitURL: 'https://github.com/windsywinds/webportfolio',
-    onClick: 'blank',
+        {
+        title: 'Live Weather App',
+    imgURL: '/assets/weatherthumb.jpg',
+    slug: 'A small app to check  the weather',
+    stack: ['HTML', 'CSS', 'Vanilla JS', 'OpenWeatherMap API'],
+    demoURL: 'https://liveweatherdemo.netlify.app/',
+    gitURL: 'https://github.com/windsywinds/liveweather',
     },
-    {
-        title: 'Windsor Photos',
-    imgURL: '/assets/csharpthumb.jpg',
-    slug: 'My personal photography portfolio. Not yet complete.',
-    stack: ['HTML', 'CSS', 'React.js', 'Contentful CMS', 'Shopify'],
-    demoURL: 'https://windsorphotos.netlify.app/',
-    gitURL: 'https://github.com/windsywinds/windsorphoto',
-    },
-
     {
         title: 'C# Ticketing System',
     imgURL: '/assets/csharpthumb.jpg',
     slug: 'A simple IT ticketing system',
     stack: ['C#'],
     gitURL: 'https://github.com/windsywinds/C-ticketsystem',
+    },
+    {
+        title: 'Web Portfolio',
+    imgURL: '/assets/webportthumb.png',
+    slug: 'This website!',
+    stack: ['HTML', 'Tailwind CSS', 'React.js', 'Vite'],
+    gitURL: 'https://github.com/windsywinds/webportfolio',
+    },
+    {
+        title: 'Windsor Photos',
+    imgURL: '/assets/csharpthumb.jpg',
+    slug: 'My personal photography portfolio. Not yet complete.',
+    stack: ['HTML', 'CSS', 'React.js', 'Contentful CMS', 'Shopify'],
+    gitURL: 'https://github.com/windsywinds/windsorphoto',
     }
+
     
 
 
