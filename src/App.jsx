@@ -5,6 +5,7 @@ import Portfolio from './components/Portfolio'
 import Timeline from './components/Timeline'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import Skills from './components/Skills'
 
 import background from './assets/bar1.png'
 import CV from './assets/Sam-Windsor-CV.pdf'
@@ -24,7 +25,7 @@ function App() {
     <div> 
      
 
-    <div className="bg-stone-900 text-stone-200 min-h-screen font-inter ">
+    <div className="bg-[#1d1a18] text-stone-200 min-h-screen font-inter ">
     
         <Hero />
         <div className="max-w-5xl w-11/12 mx-auto ">
@@ -32,6 +33,8 @@ function App() {
         <Intro />
        
         <Portfolio />
+
+        <Skills />
        
         <Contact />
        

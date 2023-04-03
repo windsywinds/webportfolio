@@ -33,8 +33,8 @@ export default [
         title: 'Windsor Photos',
     imgURL: '/assets/csharpthumb.jpg',
     slug: 'My personal photography portfolio. Not yet complete.',
-    stack: ['HTML', 'CSS', 'React.js', 'Contentful CMS', 'Shopify'],
-    gitURL: 'https://github.com/windsywinds/windsorphoto',
+    stack: ['HTML', 'Tailwind CSS', 'React.js', 'Contentful CMS', 'Ecwid'],
+    gitURL: 'https://github.com/windsywinds/windsorphotos',
     }
 
     
