@@ -47,7 +47,7 @@ function Footer() {
 						</div>
 					</div>
 				</div>
-			<p className="footer">
+			<p className="pt-3">
 				&copy; {new Date().getFullYear()} Sam Windsor. All rights reserved.
 			</p>
 		</div>

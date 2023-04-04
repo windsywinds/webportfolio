@@ -7,13 +7,6 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Skills from './components/Skills'
 
-import background from './assets/bar1.png'
-import CV from './assets/Sam-Windsor-CV.pdf'
-import vorstthumb from './assets/vorstthumb.jpg'
-import csharpthumb from './assets/csharpthumb.jpg'
-import webportthumb from './assets/webportthumb.png'
-
-
 
 function App() {
   
