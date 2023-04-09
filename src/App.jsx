@@ -7,12 +7,22 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Skills from './components/Skills'
 
+import React from 'react'
+import { useRef } from 'react'
 
 function App() {
   
+const contactRef = useRef()
+const heroRef = useRef()
 
-
+const scrollToContact = () => {
+  contactRef.current.scrollIntoView({ behavior: 'smooth'})
   
+}
+const scrollToHero = () => {
+  heroRef.current.scrollIntoView({ behavior: 'smooth'})
+  
+}
 
   return (
     <div> 
@@ -20,16 +30,16 @@ function App() {
 
     <div className="bg-[#1d1a18] text-stone-200 min-h-screen font-inter ">
     
-        <Hero />
+        <Hero scrollToContact={scrollToContact} refHero={heroRef}/>
         <div className="max-w-5xl w-11/12 mx-auto ">
        
         <Intro />
        
         <Portfolio />
        
-        <Contact />
+        <Contact  refContact={contactRef}/>
        
-        <Footer />
+        <Footer scrollToHero={scrollToHero}/>
         </div>
       
     </div>
