@@ -30,7 +30,7 @@ const scrollToHero = () => {
 
     <div className="bg-[#1d1a18] text-stone-200 min-h-screen font-inter ">
     
-        <Hero scrollToContact={scrollToContact} refHero={heroRef}/>
+        <Hero scrollToContact={scrollToContact} refHero={heroRef} />
         <div className="max-w-5xl w-11/12 mx-auto ">
        
         <Intro />

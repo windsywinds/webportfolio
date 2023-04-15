@@ -1,9 +1,10 @@
 import React from "react";
 import Title from "./Title";
 
-function Contact() {
+const Contact = ({refContact}) => {
+
     return (
-        <div className="flex flex-col mb-10 mx-auto pt-10" >
+        <div className="flex flex-col mb-10 mx-auto pt-10" ref={refContact}>
             
             <div className="flex justify-center items-center">
 
