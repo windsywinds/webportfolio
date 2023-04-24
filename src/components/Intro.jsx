@@ -5,9 +5,9 @@ import React from "react";
 
 function Intro() {
     return (
-        <div className="intro pb-9">
+        <div className="intro">
 
-            <div className="flex items-center justify-center flex-col text-center pt-20 pb-20 pl-10 pr-10" >
+            <div className="flex items-center justify-center flex-col text-center pt-20 pb-16 pl-10 pr-10" >
            
             <p className="text-sm mb-2 font-bold">Hi! I'm Sam, a Web Developer, Photographer, and Snowboard coach. 
             After hanging up my snowboard boots for a career change, I completed a Diploma in Web Development and Design to kickstart my learning. I primarily work with front end languages like Javascript and HTML, however I do have some some experience with other languages such as Python, C#, and MySQL, which I got the chance to experience during my studies.</p>

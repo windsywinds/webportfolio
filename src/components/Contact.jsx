@@ -4,7 +4,7 @@ import Title from "./Title";
 const Contact = ({refContact}) => {
 
     return (
-        <div className="flex flex-col mb-10 mx-auto pt-10" ref={refContact}>
+        <div className="flex flex-col mb-10 mx-auto pt-20" ref={refContact}>
             
             <div className="flex justify-center items-center">
 

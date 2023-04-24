@@ -1,9 +1,9 @@
 import React from 'react'
 import Title from './Title';
-import photoshop from '../assets/photoshop.svg';
-import lightroom from '../assets/lightroom.svg';
-import vscode from '../assets/vscode.svg'
-import davinci from '../assets/davinci.png'
+import photoshop from '../assets/logos/photoshop.svg';
+import lightroom from '../assets/logos/lightroom.svg';
+import vscode from '../assets/logos/vscode.svg'
+import davinci from '../assets/logos/davinci.png'
 
 export default function Skills() {
   return (
