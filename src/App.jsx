@@ -2,10 +2,9 @@ import Title from './components/Title'
 import Hero from './components/Hero'
 import Intro from './components/Intro'
 import Portfolio from './components/Portfolio'
-import Timeline from './components/Timeline'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
-import Skills from './components/Skills'
+
 
 import background from './assets/hero.png'
 
