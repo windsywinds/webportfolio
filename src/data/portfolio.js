@@ -1,5 +1,13 @@
 export default [
     {
+        title: 'Whale Watch NZ',
+    imgURL: '/assets/csharpthumb.jpg',
+    slug: 'An app to',
+    stack: ['HTML', 'Tailwind CSS', 'React.js', 'Firebase DB'],
+    demoURL: 'https://whalewatchnz.netlify.app/',
+    gitURL: 'https://github.com/windsywinds/whalewatch',
+    },
+    {
         title: 'Vorstermans',
     imgURL: '/assets/vorstthumb.jpg',
     slug: 'A concept design for an architectural firm',
