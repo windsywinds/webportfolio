@@ -2,7 +2,7 @@ export default [
     {
         title: 'Whale Watch NZ',
     imgURL: '/assets/csharpthumb.jpg',
-    slug: 'An app to',
+    slug: 'An app to track Whale and Dolphin sightings',
     stack: ['HTML', 'Tailwind CSS', 'React.js', 'Firebase DB'],
     demoURL: 'https://whalewatchnz.netlify.app/',
     gitURL: 'https://github.com/windsywinds/whalewatch',
